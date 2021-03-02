@@ -66,17 +66,10 @@ a.btn-cta-primary:hover, .btn-cta-primary:hover {
 }
 
 a.btn-cta-secondary, .btn-cta-secondary {
-  background: #479FC8;
-  border: 1px solid #479FC8;
+  background: #1D4354;  
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
-}
-
-a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
-  background: #3893bd;
-  border: 1px solid #3893bd;
-  color: #fff;
 }
 
 .text-highlight {
@@ -105,6 +98,25 @@ a.dotted-link {
 a.dotted-link:hover {
   text-decoration: none;
   color: #49515a;
+}
+
+.click-view {
+    text-align: center;
+    margin: 15px 0 0 0;
+    display: block;
+}
+
+.click-view a {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform:uppercase;
+    color: #1D4354;
+    display: block;
+}
+
+.click-view a:hover {    
+    text-decoration: none;
+    color: #2d844e;
 }
 
 /* ======= Header ======= */
@@ -167,7 +179,7 @@ a.dotted-link:hover {
 /* ======= Sections======= */
 .sections-wrapper {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 .section {
@@ -281,7 +293,7 @@ a.dotted-link:hover {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  background-color: #479FC8;
+  background-color: #1D4354;
   -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
   -moz-transform: rotate(45deg) translate3d(0, 0, 0);
   -ms-transform: rotate(45deg) translate3d(0, 0, 0);
@@ -641,8 +653,9 @@ svg.svg-inline--fa.fa-quote-right.fa-w-16 {
 .footer-bar {
     background: #32383e;
     text-align: center;
-    padding: 10px 0;
+    padding: 18px 0;
     color: #fff;
+    font-size: 15px;
 }
 .footer .copyright {
   line-height: 1.6;
