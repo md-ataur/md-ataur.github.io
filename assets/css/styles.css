@@ -2,7 +2,7 @@ body {
   font-family: 'Lato', arial, sans-serif;
   color: #434343;
   background: #DAE3E7;
-  font-size: 16px;
+  font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,11 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #3AAA64;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
+  color: #3AAA64;  
 }
 
 a:hover {
@@ -70,6 +66,10 @@ a.btn-cta-secondary, .btn-cta-secondary {
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+a.btn.btn-cta-secondary:hover {
+    background: #2d844e;
 }
 
 .text-highlight {
@@ -451,7 +451,7 @@ img.fiverr-profile-img {
   font-size: 16px;
   position: relative;
   margin-top: 0;
-  margin-bottom: 10;
+  margin-bottom: 10px;
 }
 
 .skills .skillset .level-title .level-label {
@@ -490,8 +490,7 @@ img.fiverr-profile-img {
 }
 
 .testimonials .item .quote {
-  color: #666;
-  font-size: 16px;
+  color: #666;  
   border-left: 5px solid #9fdeb7;
   padding: 5px 15px;
   margin-bottom: 15px;
@@ -654,8 +653,7 @@ svg.svg-inline--fa.fa-quote-right.fa-w-16 {
     background: #32383e;
     text-align: center;
     padding: 18px 0;
-    color: #fff;
-    font-size: 15px;
+    color: #fff;    
 }
 .footer .copyright {
   line-height: 1.6;

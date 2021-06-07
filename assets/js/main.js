@@ -33,7 +33,7 @@ jQuery(document).ready(function($) {
         // how many entries do you want?
         // default: 4
         // valid values: any integer
-        limit: 5,
+        limit: 4,
 
         // want to offset results being displayed?
         // default: false
