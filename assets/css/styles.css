@@ -47,6 +47,10 @@ a:focus {
   color: #fff;
 }
 
+.section-inner .content {
+    line-height: 1.8em;
+}
+
 a.btn-cta-primary, .btn-cta-primary {
   background: #54ba4e;
   border: 1px solid #54ba4e;
