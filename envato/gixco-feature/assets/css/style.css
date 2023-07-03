@@ -1,0 +1,226 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  margin: 0;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+
+p {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 26px;
+  color: #7e7e7e;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover {
+  color: #10111e;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+  outline: 0;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#spinner {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../images/ajax-loader.gif) 50% 50% no-repeat #fff;
+}
+.header_inner {
+    width: auto;
+    min-height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding: 90px 0 50px;
+    overflow: hidden;
+    background: url(../images/bg.png) no-repeat scroll 0 0;
+    background-color: #4b5f80;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+}
+.title {
+    padding: 10px 0;
+}
+.title h1 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #fff;
+}
+.img-tag {
+    width: 100%;
+    display: block;
+    margin: 40px 0;
+}
+.button_purchase {
+    padding: 40px 0;
+}
+.button_purchase a {
+    text-decoration: none;
+    padding: 12px 20px;
+    background: #7c92b6;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0 3px;
+    transition:0.3s;
+}
+.button_purchase a:hover{
+	background: #397bdf;
+}
+.heading-text {
+    padding: 50px 0;
+    text-align: center;
+}
+.theme-area img {
+    max-width: 100%;
+}
+.theme_parts {
+    margin: 0 0 40px;
+}
+.first_part {
+    background: url(../images/frame.jpg) no-repeat scroll center top;
+    position: relative;
+    width: 100%;
+    background-size: contain;
+}
+.image-shop-scroll {
+    margin: 30px 0 0;
+    width: 100%;    
+    height: 550px;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    border: 2px solid #ededed;
+}
+.image-shop-scroll {
+    border-top: none;
+}
+.first_part a{
+    overflow: hidden;
+    position: relative;
+}
+.image-shop-scroll span {
+    position: absolute;   
+    top: 41%;
+    left: 0;
+    right: 0;
+    width: 90px;
+    height: 90px;
+    visibility: hidden;
+    padding: 32px 0;
+    margin: 0 auto;
+    opacity: 0;    
+    background: #FE4536;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50%;
+    text-align: center;
+    -webkit-transition: all .5s cubic-bezier(.645,.045,.355,1);
+    transition: all .5s cubic-bezier(.645,.045,.355,1);
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);    
+}
+.image-shop-scroll:hover span {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+}
+.second_part {
+    text-align: center;
+    padding: 10px 0;
+}
+.second_part span{
+    font-size: 18px;
+}
+.heading-text p {
+    font-size: 16px;
+    color: #758799;
+    line-height: 28px;
+}
+.core-feature {
+    padding: 80px 0;
+}
+.feature-box {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 2px 40px rgba(0,0,0,.09);
+    box-shadow: 0 2px 40px rgba(0,0,0,.09);
+    padding: 45px 15px;
+    text-align: center;
+    margin: 0 0 30px;
+}
+.feature-box img {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 70px;
+}
+.feature-box span {
+    display: block;
+    color: #062a4d;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.footer_inner {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    padding: 15px 8px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background: #4b5f80;
+    text-transform: capitalize;
+    line-height: 24px;
+}
+.footer_inner a{
+    color: #fff;
+    transition: 0.3s;
+}
+.footer_inner a:hover{
+    color: #ccc;
+}
